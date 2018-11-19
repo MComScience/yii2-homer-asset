@@ -1,0 +1,26 @@
+{
+    "name": "m-comscience/yii2-homer-asset",
+    "description": "Bootstrap theme for Yii2 Advanced Application Template",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","widget","yii2 homer asset"],
+    "homepage": "https://github.com/MComScience/yii2-homer-asset",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Tanakorn Phompak",
+            "email": "mcomsciencermu@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.14",
+        "yiisoft/yii2-bootstrap": "~2.0.0",
+        "bower-asset/bootbox": "^4.0",
+        "bower-asset/fontawesome": "4.*",
+        "kartik-v/yii2-icons": "@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "homer\\": ""
+        }
+    }
+}
