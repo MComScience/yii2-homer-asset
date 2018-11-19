@@ -16,11 +16,16 @@
         "yiisoft/yii2-bootstrap": "~2.0.0",
         "bower-asset/bootbox": "^4.0",
         "bower-asset/fontawesome": "4.*",
-        "kartik-v/yii2-icons": "@dev"
+        "kartik-v/yii2-icons": "*"
     },
     "autoload": {
         "psr-4": {
             "homer\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
         }
     }
 }
